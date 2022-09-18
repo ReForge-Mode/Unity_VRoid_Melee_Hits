@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "493c77b0-5b93-73b1-c95d-6d59f3462651": {
+      "ProjectGuid": "493c77b0-5b93-73b1-c95d-6d59f3462651",
+      "DisplayName": "UniGLTF",
+      "ColorIndex": 0
+    },
+    "267272d1-2700-7bdb-3a9e-9f57ee142b90": {
+      "ProjectGuid": "267272d1-2700-7bdb-3a9e-9f57ee142b90",
+      "DisplayName": "VRMShaders.GLTF.IO.Runtime",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "c985cbec-2451-634a-1d2e-4d85c14282db": {
+      "ProjectGuid": "c985cbec-2451-634a-1d2e-4d85c14282db",
+      "DisplayName": "Assembly-CSharp",
+      "ColorIndex": 2
+    },
+    "c672b392-3076-e7c3-f99c-adfcf4557995": {
+      "ProjectGuid": "c672b392-3076-e7c3-f99c-adfcf4557995",
+      "DisplayName": "Assembly-CSharp-firstpass",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

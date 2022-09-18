@@ -1,0 +1,14 @@
+VRoid Studio v1.10.0
+vroid.com/en
+
+UniVRM v0.101.0
+github.com/vrm-c/UniVRM/
+
+Simple URP Toon Lit Outline Shader v0.94
+github.com/simplestargame/SimpleURPToonLitOutlineExample
+
+Invector Third Person Controller v2.0
+assetstore.unity.com/packages/tools/game-toolkits/third-person-controller-basic-locomotion-free-82048
+
+Gridbox Prototype v1.1.0
+assetstore.unity.com/packages/2d/textures-materials/gridbox-prototype-materials-129127
