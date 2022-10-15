@@ -94,8 +94,8 @@ namespace Invector.vCharacterController
         internal float jumpCounter;                         // used to count the routine to reset the jump
         internal float groundDistance;                      // used to know the distance from the ground
         internal RaycastHit groundHit;                      // raycast to hit the ground 
-        internal bool lockMovement = false;                 // lock the movement of the controller (not the animation)
-        internal bool lockRotation = false;                 // lock the rotation of the controller (not the animation)        
+        public bool lockMovement = false;                 // lock the movement of the controller (not the animation)
+        public bool lockRotation = false;                 // lock the rotation of the controller (not the animation)        
         internal bool _isStrafing;                          // internally used to set the strafe movement                
         internal Transform rotateTarget;                    // used as a generic reference for the camera.transform
         internal Vector3 input;                             // generate raw input for the controller
@@ -208,7 +208,8 @@ namespace Invector.vCharacterController
                     }
                 }
             }
-            stopMove = false;
+
+            stopMove = lockMovement ? true : false;
         }
 
         public virtual void RotateToPosition(Vector3 position)
