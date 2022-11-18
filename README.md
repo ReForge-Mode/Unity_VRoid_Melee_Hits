@@ -2,7 +2,7 @@
 In this video, we'll be walking you through how to create a Unity combat system for your VRoid Studio model! We'll walk you through the basics of creating this system, and by the end of the video you'll have everything you need to create a great Unity combat system for your project!
 
 <img src="https://github.com/FFaUniHan/Unity_VRoid_Melee_Hits/blob/main/Demo%202.gif" width=100% height=100%>
-<p align="center"><img src="https://github.com/FFaUniHan/Unity_VRoid_Damage_Pop_Up/blob/main/Demo%201.gif" width=50% height=100%></p>
+<p align="center"><img src="https://github.com/FFaUniHan/Unity_VRoid_Damage_Pop_Up/blob/main/Demo%201.gif" width=100% height=100%></p>
 
 Topics discussed in this video:
 - Equip Weapons to Player's Hand
