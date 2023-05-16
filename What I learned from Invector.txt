@@ -1,0 +1,26 @@
+What I learned from Invector:
+- There's a very complicated animator with Blendtrees and Multiple Nestled Animator States
+
+For combat:
+- Each hand has a "HITBOX COLLIDER" for melee hit damage and "DEFAULT EQUIP POINT" within its hierarchy
+- To attack, they just enable the attack trigger collider and deactivate it again for one frame. Then deal damage OnTriggerEnter
+- There's also a child game object on the character's back to place the weapon when not used
+- Interestingly, they create a custom function for TriggerConditions to validate a hit damage
+  whether the enemy is immune or not, etc. So the check in the main function will be just "if(triggerCondition == true)"
+- All damage components are INTERFACES, meaning that it can be applied to other units differently.
+  The damage dealer doesn't care about the differences.
+- How do they activate that collider? 
+  - Interestingly, it validates the damage dealing on the attacker instead on the receiver
+  - For games like Genshin, I think the damage dealer should just send damage raw (after checking if the attack is possible)
+    and then the receiver should handle the damage values later (for damage reduction or immunity)
+  - You need to be careful not to deal damage to yourself (if collider with your body) and to objects like swords
+  - There's a function to trigger animation reaction for stagger break
+
+Animation:
+- The attack animation is chained together so that you can combo it, or not. 
+- The attack animation also has an attack Animator script to manage when to activate the attack collider.
+- You can't attack and move at the same time. Moving and then attacking will stop your movement.
+  Pressing move while the attack animation is still going will not move you.
+
+Other stuff:
+- There's a lock on system for camera, complete with standalone function. But it doesn't allow you to change lock on targets.
